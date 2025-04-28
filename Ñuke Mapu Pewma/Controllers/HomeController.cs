@@ -15,6 +15,11 @@ namespace Ñuke_Mapu_Pewma.Controllers
             return View();
         }
 
+        public IActionResult Catalogo()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
